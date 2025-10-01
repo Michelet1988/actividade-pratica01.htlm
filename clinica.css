@@ -1,1 +1,177 @@
-!
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.div-clinica{
+    color: #53a08e;
+     font-size: 40px;
+}
+
+.div-list h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #4d686f;
+}
+
+.div-list ul {
+    display: flex;
+    gap: 15px;  
+}
+
+.div-list ul li a {
+    text-decoration: none;
+    color: #a9cba6;
+}
+
+.section-01{
+    background-color: #e0dba4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding: 100px;
+}
+
+.img-section-01{
+    width: 300px;
+    height: 350px;
+    box-shadow: 10px 10px 20px rgba(#00ffff, #005180, #00aeff, alpha);
+    border-radius: 40px;
+}
+
+.section-01 p{
+    color: #4d686f;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    font-weight: 700px;
+    text-align: center;
+}
+ 
+span{
+    font-size: 40px;
+    color: #4d686f;
+    text-transform: uppercase;
+}
+
+.section-02{
+    background-color: #a9cba6;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-icon{
+    color: #e0dba4;
+    font-size: 45px;
+    margin-left: 25px;
+}
+
+.div-paragrafo{
+    color: #4d686f;
+    font-size: 30px;
+}
+
+.section-03{
+    padding: 150px;
+    background-image: url(imagem/clinical-trial-consulting-8344100_1280.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-03 button{
+    background-color: #00ffff;
+    color: #4d686f;
+    width: 180px;
+    padding: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px #4d686f;
+}
+
+.section-03 button:hover{
+    background-color: #00aeff;
+    transition: 0.8s;
+    box-shadow: 5px 5px 10px rgba(#00aeff, #006680, #00fff2, alpha);
+}
+
+.section-04{
+    background-color: #006680; /*cor de fundo da section*/
+    padding: 100px; /*preenchimento interno da section*/
+    display: flex; /*tornando a Section Flex/lado a lado*/
+    gap: 10px; /*espaçamento entre as caixas*/
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
+}
+
+.div-section-04{
+    width: 350px; /*largura das 3 caixas*/
+    height: 350px;/*altura das 3 caixas*/
+    background-color: #00fff2;/*cor de fundo para as caixas*/
+    text-align: center;/*alinhamento geral dos textos*/
+    padding: 15px;/*espaçamento interno das caixas*/
+    box-shadow: 10px 10px 20px white;
+}
+
+.div-section-04:hover{
+    box-shadow: 12px 12px 30px #e0dba4;
+    transition: 0.8s;
+}
+  
+.div-star h3{
+    font-size: 25px;
+    color: #4d686f;
+    text-transform: uppercase;
+}
+
+.div-star p{
+    color: #4d686f;
+    font-size: 20px;
+}
+
+.div-star i{
+    color: #53a08e;
+    font-size: 30px;
+}
+
+.medico {
+    background-color: #00ffff;/*imagem de fundo da caixa*/
+    background-repeat: no-repeat;/*removendo repetição da imagem*/
+    background-size: cover; /*preenchimento completo da img*/
+    background-position: center;/*posicionamento da imagem*/
+}
+
+.clinica{
+    color: #a9cba6;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #006680; /*cor de fundo*/
+    padding: 50px; /*preenchimento interno*/
+    color: #4d686f;/*cor das letras*/
+    /* sempre alinhar os itens utilizando o display:flex e suas propriedades */
+    display: flex; /*utilizando para fazer alinhamento*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*alinhamento horizontal*/
+    text-align: center; /*alinhamento dos textos*/
+    font-size: 25px;/*aumentando o tamanho dos textos*/
+}
+
+footer i{
+    font-size: 40px;
+    color: #e0dba4;
+}
+
+footer i :hover{
+    color: #00fff2;
+    transition: 0.8s;
+
+}
