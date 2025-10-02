@@ -1,12 +1,12 @@
 header{
-    background-color: aqua;
+    background-color:black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .div-clinica{
-    color: #53a08e;
+    color: #005180;
      font-size: 40px;
 }
 
@@ -23,11 +23,11 @@ header{
 
 .div-list ul li a {
     text-decoration: none;
-    color: #a9cba6;
+    color: #00aeff;
 }
 
 .section-01{
-    background-color: #e0dba4;
+    background-color: #005180;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -43,7 +43,7 @@ header{
 }
 
 .section-01 p{
-    color: #4d686f;
+    color: white;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 30px;
@@ -53,12 +53,12 @@ header{
  
 span{
     font-size: 40px;
-    color: #4d686f;
+    color: hsl(192, 26%, 62%);
     text-transform: uppercase;
 }
 
 .section-02{
-    background-color: #a9cba6;
+    background-color: white;
     padding: 100px;
     display: flex;
     flex-direction: column;
@@ -67,9 +67,9 @@ span{
 }
 
 .div-icon{
-    color: #e0dba4;
-    font-size: 45px;
-    margin-left: 25px;
+    color: #00aeff;
+    font-size: 40px;
+    margin-left: 40px;
 }
 
 .div-paragrafo{
@@ -103,6 +103,7 @@ span{
 }
 
 .section-04{
+    font-size: 20px;
     background-color: #006680; /*cor de fundo da section*/
     padding: 100px; /*preenchimento interno da section*/
     display: flex; /*tornando a Section Flex/lado a lado*/
@@ -112,21 +113,23 @@ span{
 }
 
 .div-section-04{
+    font-size: 20px;
     width: 350px; /*largura das 3 caixas*/
     height: 350px;/*altura das 3 caixas*/
     background-color: #00fff2;/*cor de fundo para as caixas*/
     text-align: center;/*alinhamento geral dos textos*/
-    padding: 15px;/*espaçamento interno das caixas*/
+    padding: 20px;/*espaçamento interno das caixas*/
     box-shadow: 10px 10px 20px white;
 }
 
 .div-section-04:hover{
     box-shadow: 12px 12px 30px #e0dba4;
     transition: 0.8s;
+    color: #e0dba4;
 }
   
 .div-star h3{
-    font-size: 25px;
+    font-size: 20px;
     color: #4d686f;
     text-transform: uppercase;
 }
@@ -138,7 +141,7 @@ span{
 
 .div-star i{
     color: #53a08e;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .medico {
@@ -146,6 +149,7 @@ span{
     background-repeat: no-repeat;/*removendo repetição da imagem*/
     background-size: cover; /*preenchimento completo da img*/
     background-position: center;/*posicionamento da imagem*/
+    font-size: 20px;
 }
 
 .clinica{
