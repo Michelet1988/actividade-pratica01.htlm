@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 header{
     background-color:black;
     display: flex;
@@ -160,7 +164,7 @@ span{
 footer{
     background-color: #006680; /*cor de fundo*/
     padding: 50px; /*preenchimento interno*/
-    color: #4d686f;/*cor das letras*/
+    color:black;/*cor das letras*/
     /* sempre alinhar os itens utilizando o display:flex e suas propriedades */
     display: flex; /*utilizando para fazer alinhamento*/
     align-items: center; /*alinhamento vertical*/
